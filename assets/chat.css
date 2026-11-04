@@ -1,0 +1,30 @@
+<style>
+:root { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+.stMainBlockContainer { max-width: 960px; }
+.desk-brand { display:flex; align-items:center; gap:12px; margin-bottom:8px; }
+.desk-mark { background:#087f8c; color:white; width:44px; height:44px; border-radius:14px;
+  display:grid; place-items:center; font-weight:750; font-size:17px; box-shadow:0 4px 12px #087f8c20; }
+.desk-name { font-size:20px; font-weight:750; letter-spacing:-.6px; color:#172b46; }
+.desk-label { font-size:12px; color:#596c80; margin-top:1px; }
+.desk-eyebrow { text-transform:uppercase; letter-spacing:1.8px; font-size:11px; font-weight:700; color:#087f8c; margin-bottom:12px; }
+.desk-welcome h1 { font-size:clamp(1.9rem, 4vw, 2.65rem); line-height:1.15; letter-spacing:-1.3px; margin:0 0 14px; color:#172b46; }
+.desk-welcome p { color:#52677d; font-size:16px; line-height:1.65; margin:0; max-width:420px; }
+.desk-meta { display:flex; flex-wrap:wrap; gap:8px; margin-top:20px; }
+.desk-meta span { background:#eaf5f3; border:1px solid #d0e9e4; border-radius:20px; padding:5px 11px; color:#226860; font-size:12px; }
+.desk-help { font-size:12px; color:#53677b; line-height:1.6; padding:8px 0 0; }
+[data-testid="stChatMessage"] { background:#fff; border:1px solid #dce6ed; border-radius:18px; padding:20px; margin:10px 0; box-shadow:0 3px 12px #172b4604; }
+[data-testid="stChatMessage"]:has([data-testid="stChatMessageAvatarUser"]) { background:#eaf4f5; border-color:#d2e7e8; }
+[data-testid="stChatMessageAvatarCustom"] { background:#087f8c; color:white; }
+[data-testid="stChatMessageAvatarUser"] { background:#d6e6ef; color:#172b46; }
+[data-testid="stChatMessageContent"] p { line-height:1.75; }
+[data-testid="stChatInput"] { border-radius:16px; border:1px solid #bfd2dc; background:#fff; box-shadow:0 5px 22px #172b460a; }
+[data-testid="stChatInput"]:focus-within { border-color:#087f8c; box-shadow:0 0 0 3px #087f8c20; }
+[data-testid="stButton"] button { transition: background .15s, border-color .15s; }
+[data-testid="stButton"] button:hover { border-color:#087f8c; background:#eaf5f3; color:#12656f; }
+[data-testid="stButton"] button:focus-visible { outline:3px solid #087f8c; outline-offset:3px; }
+.st-key-starters [data-testid="stButton"] button { background:white; min-height:60px; padding:12px 18px; text-align:left; }
+@media (max-width:640px) {
+  [data-testid="stChatMessage"] { padding:14px; }
+  .desk-welcome h1 { letter-spacing:-.7px; }
+}
+</style>
