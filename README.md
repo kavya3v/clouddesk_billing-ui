@@ -5,6 +5,9 @@ support workflow in n8n Cloud. The Python server sends each question directly to
 the configured endpoint; this app does not implement retrieval, embeddings,
 LLM calls, or escalation logic.
 
+See the [application flow guide](docs/application-flow.md) for a diagram,
+the request/response contract, and an explanation of each step.
+
 ## Requirements
 
 - Python 3.10 or newer
