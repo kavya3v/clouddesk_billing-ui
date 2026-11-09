@@ -7,7 +7,8 @@ from pathlib import Path
 import streamlit as st
 from dotenv import load_dotenv
 
-from client import ChatClientError, send_message
+from client import ChatClientError
+from chat_backend import send_chat_message
 
 
 load_dotenv()
@@ -91,33 +92,19 @@ if chat_input:
     with st.chat_message("user"):
         st.markdown(chat_input)
 
-    n8n_chat_url = os.getenv("N8N_CHAT_URL", "").strip()
-    basic_user = os.getenv("N8N_BASIC_USER")
-    basic_password = os.getenv("N8N_BASIC_PASSWORD")
-    if bool(basic_user) != bool(basic_password):
-        error = (
-            "Basic Auth is only partially configured. Set both "
-            "N8N_BASIC_USER and N8N_BASIC_PASSWORD, or leave both empty."
-        )
-        with st.chat_message("assistant", avatar=":material/support_agent:"):
-            st.error(error)
-    else:
-        basic_auth = (basic_user, basic_password) if basic_user else None
-        with st.chat_message("assistant", avatar=":material/support_agent:"):
-            try:
-                with st.spinner("Checking billing information..."):
-                    answer = send_message(
-                        chat_url=n8n_chat_url,
-                        session_id=st.session_state["conversation_id"],
-                        chat_input=chat_input,
-                        basic_auth=basic_auth,
-                    )
-                st.markdown(answer)
-                st.session_state["messages"].append(
-                    {"role": "assistant", "content": answer}
+    with st.chat_message("assistant", avatar=":material/support_agent:"):
+        try:
+            with st.spinner("Checking billing information..."):
+                answer = send_chat_message(
+                    session_id=st.session_state["conversation_id"],
+                    chat_input=chat_input,
                 )
-            except ChatClientError as exc:
-                st.error(str(exc))
+            st.markdown(answer)
+            st.session_state["messages"].append(
+                {"role": "assistant", "content": answer}
+            )
+        except ChatClientError as exc:
+            st.error(str(exc))
 
 st.html('''<div class="desk-help">Account-specific requests may need human review.
     Each question is answered independently; earlier messages are shown for

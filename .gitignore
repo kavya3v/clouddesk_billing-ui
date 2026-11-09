@@ -5,3 +5,9 @@ __pycache__/
 .pytest_cache/
 *.log
 clouddesk-billing-ui-upload.zip
+
+.venv-backend/
+
+# Local editor state and raw external workflow export
+.vscode/
+reference/n8nworkflow.json

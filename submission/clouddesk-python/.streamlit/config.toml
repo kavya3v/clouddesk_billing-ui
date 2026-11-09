@@ -1,0 +1,14 @@
+[theme]
+base = "light"
+primaryColor = "#087F8C"
+backgroundColor = "#F5F8FB"
+secondaryBackgroundColor = "#EAF2F5"
+textColor = "#172B46"
+font = "sans serif"
+baseFontSize = 16
+borderColor = "#DCE6ED"
+baseRadius = "0.85rem"
+buttonRadius = "0.75rem"
+showWidgetBorder = true
+paddingTop = "1.5rem"
+

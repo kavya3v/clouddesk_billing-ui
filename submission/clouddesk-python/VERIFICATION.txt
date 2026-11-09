@@ -1,0 +1,12 @@
+Submission verification
+Original repository: 49 tests passed.
+Python-only package: 39 tests passed.
+Dependency resolution: pip --dry-run --no-index passed using installed tested versions.
+Dependency consistency: pip check passed.
+Prompt, generation, evidence threshold, and SQL references match verified originals.
+Evaluation: 18/20 routing agreement; 8/8 supported returned answers.
+One matching escalation is a technical/validation fallback.
+Secret-value scan and excluded-file audit passed.
+No live calls, database writes, schema changes, or deployment actions during packaging.
+Full fresh-environment installation was not repeated; pinned dependencies were checked
+against the existing verified Python 3.15.2 Windows environment.

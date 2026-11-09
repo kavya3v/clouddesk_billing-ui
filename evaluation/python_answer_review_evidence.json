@@ -1,0 +1,479 @@
+[
+  {
+    "test_case_id": "final-01",
+    "request_id": "e01890af-e36e-41b3-9c47-4d0a84323663",
+    "comparison_question": "My accountant needs billing documents. Where in CloudDesk can I download invoices?",
+    "comparison_answer": "You can download invoices in CloudDesk by going to Settings > Billing > Invoices. [faq-invoices-001][manual-billing-navigation-001]",
+    "read_http_status": 200,
+    "matching_log_count": 1,
+    "log": {
+      "id": 150,
+      "question": "My accountant needs billing documents. Where in CloudDesk can I download invoices?",
+      "decision": "answer",
+      "answer": "You can download invoices in CloudDesk by going to Settings > Billing > Invoices. [faq-invoices-001][manual-billing-navigation-001]",
+      "sources": [
+        "faq-invoices-001",
+        "manual-billing-navigation-001"
+      ],
+      "retrieved_evidence": [
+        {
+          "title": "How to download invoices",
+          "content": "CloudDesk customers can download invoices from Settings > Billing > Invoices.",
+          "chunk_key": "faq-invoices-001",
+          "source_type": "faq",
+          "hybrid_score": 0.0163934426229508,
+          "semantic_similarity": 0.858822098415561
+        },
+        {
+          "title": "Billing navigation guide",
+          "content": "Billing navigation guide. Download invoices from Settings > Billing > Invoices. The account owner can update payment methods under Settings > Billing > Payment methods. To cancel a subscription, go to Settings > Billing > Manage subscription > Cancel subscription. Cancellation takes effect at the end of the current paid billing period, and access remains available until then. Cancellation does not automatically issue a refund.",
+          "chunk_key": "manual-billing-navigation-001",
+          "source_type": "manual",
+          "hybrid_score": 0.0161290322580645,
+          "semantic_similarity": 0.681978102204874
+        },
+        {
+          "title": "Troubleshoot a failed payment",
+          "content": "If a payment fails, the account owner can update the payment method under Settings > Billing > Payment methods. After updating the payment method, select Retry payment if that option appears. If payment still fails, contact the card issuer or ask CloudDesk support for help. Do not enter full card details in a support message.",
+          "chunk_key": "faq-failed-payment-001",
+          "source_type": "faq",
+          "hybrid_score": 0.0158730158730159,
+          "semantic_similarity": 0.67595835596825
+        },
+        {
+          "title": "Synthetic ticket: Failed payment troubleshooting",
+          "content": "Synthetic support ticket example: Failed payment troubleshooting. Customer reported a failed payment and asked how to try again. Support advised the account owner to update the payment method under Settings > Billing > Payment methods, then select Retry payment if available. If payment continued to fail, support advised contacting the card issuer or CloudDesk support. No account action or successful payment was confirmed. This example illustrates troubleshooting guidance and does not establish billing or refund policy.",
+          "chunk_key": "ticket-failed-payment-example-001",
+          "source_type": "ticket",
+          "hybrid_score": 0.015625,
+          "semantic_similarity": 0.627594422399642
+        },
+        {
+          "title": "Subscription cancellation policy",
+          "content": "Customers can cancel their subscription from Settings > Billing > Manage subscription > Cancel subscription. Cancellation takes effect at the end of the current paid billing period. Access remains available until then. Cancellation does not automatically issue a refund.",
+          "chunk_key": "policy-cancellation-001",
+          "source_type": "policy",
+          "hybrid_score": 0.0153846153846154,
+          "semantic_similarity": 0.544590568506986
+        }
+      ]
+    }
+  },
+  {
+    "test_case_id": "final-02",
+    "request_id": "7cbfa2de-62fb-499e-81c0-dc906588079d",
+    "comparison_question": "I'm looking under Settings. What is the navigation path to invoice downloads?",
+    "comparison_answer": "To download invoices, go to Settings > Billing > Invoices. [faq-invoices-001][manual-billing-navigation-001]",
+    "read_http_status": 200,
+    "matching_log_count": 1,
+    "log": {
+      "id": 151,
+      "question": "I'm looking under Settings. What is the navigation path to invoice downloads?",
+      "decision": "answer",
+      "answer": "To download invoices, go to Settings > Billing > Invoices. [faq-invoices-001][manual-billing-navigation-001]",
+      "sources": [
+        "faq-invoices-001",
+        "manual-billing-navigation-001"
+      ],
+      "retrieved_evidence": [
+        {
+          "title": "How to download invoices",
+          "content": "CloudDesk customers can download invoices from Settings > Billing > Invoices.",
+          "chunk_key": "faq-invoices-001",
+          "source_type": "faq",
+          "hybrid_score": 0.0163934426229508,
+          "semantic_similarity": 0.74687382220011
+        },
+        {
+          "title": "Billing navigation guide",
+          "content": "Billing navigation guide. Download invoices from Settings > Billing > Invoices. The account owner can update payment methods under Settings > Billing > Payment methods. To cancel a subscription, go to Settings > Billing > Manage subscription > Cancel subscription. Cancellation takes effect at the end of the current paid billing period, and access remains available until then. Cancellation does not automatically issue a refund.",
+          "chunk_key": "manual-billing-navigation-001",
+          "source_type": "manual",
+          "hybrid_score": 0.0161290322580645,
+          "semantic_similarity": 0.658995257431078
+        },
+        {
+          "title": "Troubleshoot a failed payment",
+          "content": "If a payment fails, the account owner can update the payment method under Settings > Billing > Payment methods. After updating the payment method, select Retry payment if that option appears. If payment still fails, contact the card issuer or ask CloudDesk support for help. Do not enter full card details in a support message.",
+          "chunk_key": "faq-failed-payment-001",
+          "source_type": "faq",
+          "hybrid_score": 0.0158730158730159,
+          "semantic_similarity": 0.54955675349543
+        },
+        {
+          "title": "Subscription cancellation policy",
+          "content": "Customers can cancel their subscription from Settings > Billing > Manage subscription > Cancel subscription. Cancellation takes effect at the end of the current paid billing period. Access remains available until then. Cancellation does not automatically issue a refund.",
+          "chunk_key": "policy-cancellation-001",
+          "source_type": "policy",
+          "hybrid_score": 0.015625,
+          "semantic_similarity": 0.522629761368584
+        },
+        {
+          "title": "Synthetic ticket: Failed payment troubleshooting",
+          "content": "Synthetic support ticket example: Failed payment troubleshooting. Customer reported a failed payment and asked how to try again. Support advised the account owner to update the payment method under Settings > Billing > Payment methods, then select Retry payment if available. If payment continued to fail, support advised contacting the card issuer or CloudDesk support. No account action or successful payment was confirmed. This example illustrates troubleshooting guidance and does not establish billing or refund policy.",
+          "chunk_key": "ticket-failed-payment-example-001",
+          "source_type": "ticket",
+          "hybrid_score": 0.0153846153846154,
+          "semantic_similarity": 0.519990652209493
+        }
+      ]
+    }
+  },
+  {
+    "test_case_id": "final-03",
+    "request_id": "7efd6c01-b55e-4024-b5c8-e108da2fba17",
+    "comparison_question": "Where do I find invoces to download?",
+    "comparison_answer": "You can download your invoices from Settings > Billing > Invoices. [faq-invoices-001]",
+    "read_http_status": 200,
+    "matching_log_count": 1,
+    "log": {
+      "id": 152,
+      "question": "Where do I find invoces to download?",
+      "decision": "answer",
+      "answer": "You can download your invoices from Settings > Billing > Invoices. [faq-invoices-001]",
+      "sources": [
+        "faq-invoices-001"
+      ],
+      "retrieved_evidence": [
+        {
+          "title": "How to download invoices",
+          "content": "CloudDesk customers can download invoices from Settings > Billing > Invoices.",
+          "chunk_key": "faq-invoices-001",
+          "source_type": "faq",
+          "hybrid_score": 0.0163934426229508,
+          "semantic_similarity": 0.701477749858822
+        },
+        {
+          "title": "Billing navigation guide",
+          "content": "Billing navigation guide. Download invoices from Settings > Billing > Invoices. The account owner can update payment methods under Settings > Billing > Payment methods. To cancel a subscription, go to Settings > Billing > Manage subscription > Cancel subscription. Cancellation takes effect at the end of the current paid billing period, and access remains available until then. Cancellation does not automatically issue a refund.",
+          "chunk_key": "manual-billing-navigation-001",
+          "source_type": "manual",
+          "hybrid_score": 0.0161290322580645,
+          "semantic_similarity": 0.589659351867402
+        },
+        {
+          "title": "Synthetic ticket: Failed payment troubleshooting",
+          "content": "Synthetic support ticket example: Failed payment troubleshooting. Customer reported a failed payment and asked how to try again. Support advised the account owner to update the payment method under Settings > Billing > Payment methods, then select Retry payment if available. If payment continued to fail, support advised contacting the card issuer or CloudDesk support. No account action or successful payment was confirmed. This example illustrates troubleshooting guidance and does not establish billing or refund policy.",
+          "chunk_key": "ticket-failed-payment-example-001",
+          "source_type": "ticket",
+          "hybrid_score": 0.0158730158730159,
+          "semantic_similarity": 0.488142466447961
+        },
+        {
+          "title": "Troubleshoot a failed payment",
+          "content": "If a payment fails, the account owner can update the payment method under Settings > Billing > Payment methods. After updating the payment method, select Retry payment if that option appears. If payment still fails, contact the card issuer or ask CloudDesk support for help. Do not enter full card details in a support message.",
+          "chunk_key": "faq-failed-payment-001",
+          "source_type": "faq",
+          "hybrid_score": 0.015625,
+          "semantic_similarity": 0.48613656801209
+        },
+        {
+          "title": "Subscription cancellation policy",
+          "content": "Customers can cancel their subscription from Settings > Billing > Manage subscription > Cancel subscription. Cancellation takes effect at the end of the current paid billing period. Access remains available until then. Cancellation does not automatically issue a refund.",
+          "chunk_key": "policy-cancellation-001",
+          "source_type": "policy",
+          "hybrid_score": 0.0153846153846154,
+          "semantic_similarity": 0.46083631599087
+        }
+      ]
+    }
+  },
+  {
+    "test_case_id": "final-04",
+    "request_id": "a6d1ec42-0524-4c57-8498-7c04ec53b4a5",
+    "comparison_question": "I'm the account owner and my payment failed. Where should I replace the payment method?",
+    "comparison_answer": "As the account owner, update your payment method under Settings > Billing > Payment methods. After updating it, select Retry payment if that option appears. If the payment still fails, contact your card issuer or CloudDesk support. Do not enter full card details in a support message. [faq-failed-payment-001][manual-billing-navigation-001]",
+    "read_http_status": 200,
+    "matching_log_count": 1,
+    "log": {
+      "id": 153,
+      "question": "I'm the account owner and my payment failed. Where should I replace the payment method?",
+      "decision": "answer",
+      "answer": "As the account owner, update your payment method under Settings > Billing > Payment methods. After updating it, select Retry payment if that option appears. If the payment still fails, contact your card issuer or CloudDesk support. Do not enter full card details in a support message. [faq-failed-payment-001][manual-billing-navigation-001]",
+      "sources": [
+        "faq-failed-payment-001",
+        "manual-billing-navigation-001"
+      ],
+      "retrieved_evidence": [
+        {
+          "title": "Troubleshoot a failed payment",
+          "content": "If a payment fails, the account owner can update the payment method under Settings > Billing > Payment methods. After updating the payment method, select Retry payment if that option appears. If payment still fails, contact the card issuer or ask CloudDesk support for help. Do not enter full card details in a support message.",
+          "chunk_key": "faq-failed-payment-001",
+          "source_type": "faq",
+          "hybrid_score": 0.0163934426229508,
+          "semantic_similarity": 0.802136635865964
+        },
+        {
+          "title": "Synthetic ticket: Failed payment troubleshooting",
+          "content": "Synthetic support ticket example: Failed payment troubleshooting. Customer reported a failed payment and asked how to try again. Support advised the account owner to update the payment method under Settings > Billing > Payment methods, then select Retry payment if available. If payment continued to fail, support advised contacting the card issuer or CloudDesk support. No account action or successful payment was confirmed. This example illustrates troubleshooting guidance and does not establish billing or refund policy.",
+          "chunk_key": "ticket-failed-payment-example-001",
+          "source_type": "ticket",
+          "hybrid_score": 0.0161290322580645,
+          "semantic_similarity": 0.747865024862131
+        },
+        {
+          "title": "Billing navigation guide",
+          "content": "Billing navigation guide. Download invoices from Settings > Billing > Invoices. The account owner can update payment methods under Settings > Billing > Payment methods. To cancel a subscription, go to Settings > Billing > Manage subscription > Cancel subscription. Cancellation takes effect at the end of the current paid billing period, and access remains available until then. Cancellation does not automatically issue a refund.",
+          "chunk_key": "manual-billing-navigation-001",
+          "source_type": "manual",
+          "hybrid_score": 0.0158730158730159,
+          "semantic_similarity": 0.70114611399117
+        },
+        {
+          "title": "Subscription cancellation policy",
+          "content": "Customers can cancel their subscription from Settings > Billing > Manage subscription > Cancel subscription. Cancellation takes effect at the end of the current paid billing period. Access remains available until then. Cancellation does not automatically issue a refund.",
+          "chunk_key": "policy-cancellation-001",
+          "source_type": "policy",
+          "hybrid_score": 0.015625,
+          "semantic_similarity": 0.615086236281436
+        },
+        {
+          "title": "How to download invoices",
+          "content": "CloudDesk customers can download invoices from Settings > Billing > Invoices.",
+          "chunk_key": "faq-invoices-001",
+          "source_type": "faq",
+          "hybrid_score": 0.0153846153846154,
+          "semantic_similarity": 0.555888475867917
+        }
+      ]
+    }
+  },
+  {
+    "test_case_id": "final-05",
+    "request_id": "3cfbe7f7-d50c-43df-975f-b75eb0c14da6",
+    "comparison_question": "After replacing my payment method, which option should I use to try the failed payment again?",
+    "comparison_answer": "After updating your payment method under Settings > Billing > Payment methods, select the \"Retry payment\" option if it appears. If the payment still fails, contact your card issuer or reach out to CloudDesk support for help. For your security, don't include full card details in a support message. [faq-failed-payment-001]",
+    "read_http_status": 200,
+    "matching_log_count": 1,
+    "log": {
+      "id": 154,
+      "question": "After replacing my payment method, which option should I use to try the failed payment again?",
+      "decision": "answer",
+      "answer": "After updating your payment method under Settings > Billing > Payment methods, select the \"Retry payment\" option if it appears. If the payment still fails, contact your card issuer or reach out to CloudDesk support for help. For your security, don't include full card details in a support message. [faq-failed-payment-001]",
+      "sources": [
+        "faq-failed-payment-001"
+      ],
+      "retrieved_evidence": [
+        {
+          "title": "Troubleshoot a failed payment",
+          "content": "If a payment fails, the account owner can update the payment method under Settings > Billing > Payment methods. After updating the payment method, select Retry payment if that option appears. If payment still fails, contact the card issuer or ask CloudDesk support for help. Do not enter full card details in a support message.",
+          "chunk_key": "faq-failed-payment-001",
+          "source_type": "faq",
+          "hybrid_score": 0.0163934426229508,
+          "semantic_similarity": 0.808151550491414
+        },
+        {
+          "title": "Synthetic ticket: Failed payment troubleshooting",
+          "content": "Synthetic support ticket example: Failed payment troubleshooting. Customer reported a failed payment and asked how to try again. Support advised the account owner to update the payment method under Settings > Billing > Payment methods, then select Retry payment if available. If payment continued to fail, support advised contacting the card issuer or CloudDesk support. No account action or successful payment was confirmed. This example illustrates troubleshooting guidance and does not establish billing or refund policy.",
+          "chunk_key": "ticket-failed-payment-example-001",
+          "source_type": "ticket",
+          "hybrid_score": 0.0161290322580645,
+          "semantic_similarity": 0.754257415519599
+        },
+        {
+          "title": "Billing navigation guide",
+          "content": "Billing navigation guide. Download invoices from Settings > Billing > Invoices. The account owner can update payment methods under Settings > Billing > Payment methods. To cancel a subscription, go to Settings > Billing > Manage subscription > Cancel subscription. Cancellation takes effect at the end of the current paid billing period, and access remains available until then. Cancellation does not automatically issue a refund.",
+          "chunk_key": "manual-billing-navigation-001",
+          "source_type": "manual",
+          "hybrid_score": 0.0158730158730159,
+          "semantic_similarity": 0.670355706131763
+        },
+        {
+          "title": "Subscription cancellation policy",
+          "content": "Customers can cancel their subscription from Settings > Billing > Manage subscription > Cancel subscription. Cancellation takes effect at the end of the current paid billing period. Access remains available until then. Cancellation does not automatically issue a refund.",
+          "chunk_key": "policy-cancellation-001",
+          "source_type": "policy",
+          "hybrid_score": 0.015625,
+          "semantic_similarity": 0.592924338977116
+        },
+        {
+          "title": "How to download invoices",
+          "content": "CloudDesk customers can download invoices from Settings > Billing > Invoices.",
+          "chunk_key": "faq-invoices-001",
+          "source_type": "faq",
+          "hybrid_score": 0.0153846153846154,
+          "semantic_similarity": 0.526589340219167
+        }
+      ]
+    }
+  },
+  {
+    "test_case_id": "final-07",
+    "request_id": "0999e79e-ae69-462f-8d5a-21a0556dd5f3",
+    "comparison_question": "Should I send my full card number in a support message when reporting a failed payment?",
+    "comparison_answer": "No. Please don't include your full card number in a support message. If a payment fails, the account owner can update the payment method under Settings > Billing > Payment methods and then select Retry payment if that option appears. If the payment still fails, contact the card issuer or ask CloudDesk support for help. [faq-failed-payment-001]",
+    "read_http_status": 200,
+    "matching_log_count": 1,
+    "log": {
+      "id": 156,
+      "question": "Should I send my full card number in a support message when reporting a failed payment?",
+      "decision": "answer",
+      "answer": "No. Please don't include your full card number in a support message. If a payment fails, the account owner can update the payment method under Settings > Billing > Payment methods and then select Retry payment if that option appears. If the payment still fails, contact the card issuer or ask CloudDesk support for help. [faq-failed-payment-001]",
+      "sources": [
+        "faq-failed-payment-001"
+      ],
+      "retrieved_evidence": [
+        {
+          "title": "Synthetic ticket: Failed payment troubleshooting",
+          "content": "Synthetic support ticket example: Failed payment troubleshooting. Customer reported a failed payment and asked how to try again. Support advised the account owner to update the payment method under Settings > Billing > Payment methods, then select Retry payment if available. If payment continued to fail, support advised contacting the card issuer or CloudDesk support. No account action or successful payment was confirmed. This example illustrates troubleshooting guidance and does not establish billing or refund policy.",
+          "chunk_key": "ticket-failed-payment-example-001",
+          "source_type": "ticket",
+          "hybrid_score": 0.0163934426229508,
+          "semantic_similarity": 0.763856261287809
+        },
+        {
+          "title": "Troubleshoot a failed payment",
+          "content": "If a payment fails, the account owner can update the payment method under Settings > Billing > Payment methods. After updating the payment method, select Retry payment if that option appears. If payment still fails, contact the card issuer or ask CloudDesk support for help. Do not enter full card details in a support message.",
+          "chunk_key": "faq-failed-payment-001",
+          "source_type": "faq",
+          "hybrid_score": 0.0161290322580645,
+          "semantic_similarity": 0.76077693563514
+        },
+        {
+          "title": "Billing navigation guide",
+          "content": "Billing navigation guide. Download invoices from Settings > Billing > Invoices. The account owner can update payment methods under Settings > Billing > Payment methods. To cancel a subscription, go to Settings > Billing > Manage subscription > Cancel subscription. Cancellation takes effect at the end of the current paid billing period, and access remains available until then. Cancellation does not automatically issue a refund.",
+          "chunk_key": "manual-billing-navigation-001",
+          "source_type": "manual",
+          "hybrid_score": 0.0158730158730159,
+          "semantic_similarity": 0.630198005395609
+        },
+        {
+          "title": "Subscription cancellation policy",
+          "content": "Customers can cancel their subscription from Settings > Billing > Manage subscription > Cancel subscription. Cancellation takes effect at the end of the current paid billing period. Access remains available until then. Cancellation does not automatically issue a refund.",
+          "chunk_key": "policy-cancellation-001",
+          "source_type": "policy",
+          "hybrid_score": 0.015625,
+          "semantic_similarity": 0.572330099419966
+        },
+        {
+          "title": "How to download invoices",
+          "content": "CloudDesk customers can download invoices from Settings > Billing > Invoices.",
+          "chunk_key": "faq-invoices-001",
+          "source_type": "faq",
+          "hybrid_score": 0.0153846153846154,
+          "semantic_similarity": 0.532657481546671
+        }
+      ]
+    }
+  },
+  {
+    "test_case_id": "final-08",
+    "request_id": "62b903a7-cccb-48e5-b901-0dfb09f79edf",
+    "comparison_question": "Please explain the self-service steps for ending my subscription. I'll do it myself.",
+    "comparison_answer": "You can cancel your subscription yourself in the app: go to Settings > Billing > Manage subscription > Cancel subscription. The cancellation takes effect at the end of your current paid billing period, and your access remains available until then. Note that cancellation does not automatically issue a refund. [manual-billing-navigation-001][policy-cancellation-001]",
+    "read_http_status": 200,
+    "matching_log_count": 1,
+    "log": {
+      "id": 157,
+      "question": "Please explain the self-service steps for ending my subscription. I'll do it myself.",
+      "decision": "answer",
+      "answer": "You can cancel your subscription yourself in the app: go to Settings > Billing > Manage subscription > Cancel subscription. The cancellation takes effect at the end of your current paid billing period, and your access remains available until then. Note that cancellation does not automatically issue a refund. [manual-billing-navigation-001][policy-cancellation-001]",
+      "sources": [
+        "manual-billing-navigation-001",
+        "policy-cancellation-001"
+      ],
+      "retrieved_evidence": [
+        {
+          "title": "Billing navigation guide",
+          "content": "Billing navigation guide. Download invoices from Settings > Billing > Invoices. The account owner can update payment methods under Settings > Billing > Payment methods. To cancel a subscription, go to Settings > Billing > Manage subscription > Cancel subscription. Cancellation takes effect at the end of the current paid billing period, and access remains available until then. Cancellation does not automatically issue a refund.",
+          "chunk_key": "manual-billing-navigation-001",
+          "source_type": "manual",
+          "hybrid_score": 0.0163934426229508,
+          "semantic_similarity": 0.749952366848799
+        },
+        {
+          "title": "Subscription cancellation policy",
+          "content": "Customers can cancel their subscription from Settings > Billing > Manage subscription > Cancel subscription. Cancellation takes effect at the end of the current paid billing period. Access remains available until then. Cancellation does not automatically issue a refund.",
+          "chunk_key": "policy-cancellation-001",
+          "source_type": "policy",
+          "hybrid_score": 0.0161290322580645,
+          "semantic_similarity": 0.736740095677517
+        },
+        {
+          "title": "Troubleshoot a failed payment",
+          "content": "If a payment fails, the account owner can update the payment method under Settings > Billing > Payment methods. After updating the payment method, select Retry payment if that option appears. If payment still fails, contact the card issuer or ask CloudDesk support for help. Do not enter full card details in a support message.",
+          "chunk_key": "faq-failed-payment-001",
+          "source_type": "faq",
+          "hybrid_score": 0.0158730158730159,
+          "semantic_similarity": 0.651117111380417
+        },
+        {
+          "title": "Synthetic ticket: Failed payment troubleshooting",
+          "content": "Synthetic support ticket example: Failed payment troubleshooting. Customer reported a failed payment and asked how to try again. Support advised the account owner to update the payment method under Settings > Billing > Payment methods, then select Retry payment if available. If payment continued to fail, support advised contacting the card issuer or CloudDesk support. No account action or successful payment was confirmed. This example illustrates troubleshooting guidance and does not establish billing or refund policy.",
+          "chunk_key": "ticket-failed-payment-example-001",
+          "source_type": "ticket",
+          "hybrid_score": 0.015625,
+          "semantic_similarity": 0.640953388235006
+        },
+        {
+          "title": "How to download invoices",
+          "content": "CloudDesk customers can download invoices from Settings > Billing > Invoices.",
+          "chunk_key": "faq-invoices-001",
+          "source_type": "faq",
+          "hybrid_score": 0.0153846153846154,
+          "semantic_similarity": 0.575998079700353
+        }
+      ]
+    }
+  },
+  {
+    "test_case_id": "final-09",
+    "request_id": "17a58a7e-32ef-449a-9710-4edbf8ece317",
+    "comparison_question": "Does cancelling stop my access now, or can I keep using CloudDesk through the period I've paid for?",
+    "comparison_answer": "Cancelling does not cut off your access immediately. Cancellation takes effect at the end of your current paid billing period, and you can keep using CloudDesk until then. To cancel, go to Settings > Billing > Manage subscription > Cancel subscription. Note that cancelling does not automatically issue a refund. [policy-cancellation-001][manual-billing-navigation-001]",
+    "read_http_status": 200,
+    "matching_log_count": 1,
+    "log": {
+      "id": 158,
+      "question": "Does cancelling stop my access now, or can I keep using CloudDesk through the period I've paid for?",
+      "decision": "answer",
+      "answer": "Cancelling does not cut off your access immediately. Cancellation takes effect at the end of your current paid billing period, and you can keep using CloudDesk until then. To cancel, go to Settings > Billing > Manage subscription > Cancel subscription. Note that cancelling does not automatically issue a refund. [policy-cancellation-001][manual-billing-navigation-001]",
+      "sources": [
+        "policy-cancellation-001",
+        "manual-billing-navigation-001"
+      ],
+      "retrieved_evidence": [
+        {
+          "title": "Subscription cancellation policy",
+          "content": "Customers can cancel their subscription from Settings > Billing > Manage subscription > Cancel subscription. Cancellation takes effect at the end of the current paid billing period. Access remains available until then. Cancellation does not automatically issue a refund.",
+          "chunk_key": "policy-cancellation-001",
+          "source_type": "policy",
+          "hybrid_score": 0.0163934426229508,
+          "semantic_similarity": 0.76549412225426
+        },
+        {
+          "title": "Billing navigation guide",
+          "content": "Billing navigation guide. Download invoices from Settings > Billing > Invoices. The account owner can update payment methods under Settings > Billing > Payment methods. To cancel a subscription, go to Settings > Billing > Manage subscription > Cancel subscription. Cancellation takes effect at the end of the current paid billing period, and access remains available until then. Cancellation does not automatically issue a refund.",
+          "chunk_key": "manual-billing-navigation-001",
+          "source_type": "manual",
+          "hybrid_score": 0.0161290322580645,
+          "semantic_similarity": 0.748110582136913
+        },
+        {
+          "title": "Troubleshoot a failed payment",
+          "content": "If a payment fails, the account owner can update the payment method under Settings > Billing > Payment methods. After updating the payment method, select Retry payment if that option appears. If payment still fails, contact the card issuer or ask CloudDesk support for help. Do not enter full card details in a support message.",
+          "chunk_key": "faq-failed-payment-001",
+          "source_type": "faq",
+          "hybrid_score": 0.0158730158730159,
+          "semantic_similarity": 0.713586844655561
+        },
+        {
+          "title": "How to download invoices",
+          "content": "CloudDesk customers can download invoices from Settings > Billing > Invoices.",
+          "chunk_key": "faq-invoices-001",
+          "source_type": "faq",
+          "hybrid_score": 0.015625,
+          "semantic_similarity": 0.660379581164237
+        },
+        {
+          "title": "Synthetic ticket: Failed payment troubleshooting",
+          "content": "Synthetic support ticket example: Failed payment troubleshooting. Customer reported a failed payment and asked how to try again. Support advised the account owner to update the payment method under Settings > Billing > Payment methods, then select Retry payment if available. If payment continued to fail, support advised contacting the card issuer or CloudDesk support. No account action or successful payment was confirmed. This example illustrates troubleshooting guidance and does not establish billing or refund policy.",
+          "chunk_key": "ticket-failed-payment-example-001",
+          "source_type": "ticket",
+          "hybrid_score": 0.0153846153846154,
+          "semantic_similarity": 0.652137240349855
+        }
+      ]
+    }
+  }
+]

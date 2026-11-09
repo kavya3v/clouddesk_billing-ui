@@ -1,0 +1,242 @@
+{
+  "sessionId": "evaluation-132-7293e635-072d-4f2c-a394-64ff739d3823",
+  "source": "results_execution_132.csv",
+  "attempts": [
+    {
+      "test_case_id": "final-01",
+      "started_at": "2026-11-09T05:50:04.116805+00:00",
+      "state": "response_received",
+      "request_id": "e01890af-e36e-41b3-9c47-4d0a84323663",
+      "verified_log_id": 150,
+      "saved_reason": "The FAQ and billing navigation guide both explicitly state the invoice download location in CloudDesk, directly answering the question without needing account access or any action.",
+      "saved_decision_matches": true,
+      "saved_answer_matches": true,
+      "finished_at": "2026-11-09T05:50:10.853117+00:00"
+    },
+    {
+      "test_case_id": "final-02",
+      "started_at": "2026-11-09T05:50:10.858183+00:00",
+      "state": "response_received",
+      "request_id": "7cbfa2de-62fb-499e-81c0-dc906588079d",
+      "verified_log_id": 151,
+      "saved_reason": "Both the FAQ and the billing navigation guide explicitly state the same navigation path for downloading invoices, so the evidence fully supports the answer.",
+      "saved_decision_matches": true,
+      "saved_answer_matches": true,
+      "finished_at": "2026-11-09T05:50:12.292555+00:00"
+    },
+    {
+      "test_case_id": "final-03",
+      "started_at": "2026-11-09T05:50:12.297154+00:00",
+      "state": "response_received",
+      "request_id": "7efd6c01-b55e-4024-b5c8-e108da2fba17",
+      "verified_log_id": 152,
+      "saved_reason": "The FAQ explicitly states where invoices can be downloaded, fully supporting the answer.",
+      "saved_decision_matches": true,
+      "saved_answer_matches": true,
+      "finished_at": "2026-11-09T05:50:13.636899+00:00"
+    },
+    {
+      "test_case_id": "final-04",
+      "started_at": "2026-11-09T05:50:13.642253+00:00",
+      "state": "response_received",
+      "request_id": "a6d1ec42-0524-4c57-8498-7c04ec53b4a5",
+      "verified_log_id": 153,
+      "saved_reason": "The FAQ and billing navigation guide both explicitly state that the account owner can update the payment method under Settings > Billing > Payment methods, and the FAQ provides the retry and follow-up guidance.",
+      "saved_decision_matches": true,
+      "saved_answer_matches": true,
+      "finished_at": "2026-11-09T05:50:16.358323+00:00"
+    },
+    {
+      "test_case_id": "final-05",
+      "started_at": "2026-11-09T05:50:16.362751+00:00",
+      "state": "response_received",
+      "request_id": "3cfbe7f7-d50c-43df-975f-b75eb0c14da6",
+      "verified_log_id": 154,
+      "saved_reason": "The FAQ directly states the retry option to use after updating the payment method, fully supporting the answer.",
+      "saved_decision_matches": true,
+      "saved_answer_matches": true,
+      "finished_at": "2026-11-09T05:50:18.219563+00:00"
+    },
+    {
+      "test_case_id": "final-06",
+      "started_at": "2026-11-09T05:50:18.225551+00:00",
+      "state": "response_received",
+      "request_id": "7291324e-e495-4d23-a4fd-00c1306c5d39",
+      "verified_log_id": 155,
+      "saved_reason": "Response validation failed: Answer lacks supporting citations",
+      "saved_decision_matches": true,
+      "saved_answer_matches": true,
+      "finished_at": "2026-11-09T05:50:20.544260+00:00"
+    },
+    {
+      "test_case_id": "final-07",
+      "started_at": "2026-11-09T05:50:20.550114+00:00",
+      "state": "response_received",
+      "request_id": "0999e79e-ae69-462f-8d5a-21a0556dd5f3",
+      "verified_log_id": 156,
+      "saved_reason": "The FAQ directly states not to enter full card details in a support message and provides the failed-payment troubleshooting steps, fully supporting the answer.",
+      "saved_decision_matches": true,
+      "saved_answer_matches": true,
+      "finished_at": "2026-11-09T05:50:22.408168+00:00"
+    },
+    {
+      "test_case_id": "final-08",
+      "started_at": "2026-11-09T05:50:22.414122+00:00",
+      "state": "response_received",
+      "request_id": "62b903a7-cccb-48e5-b901-0dfb09f79edf",
+      "verified_log_id": 157,
+      "saved_reason": "The manual and cancellation policy both explicitly state the self-service cancellation path and its timing, fully supporting the answer without addressing refund eligibility.",
+      "saved_decision_matches": true,
+      "saved_answer_matches": true,
+      "finished_at": "2026-11-09T05:50:24.460302+00:00"
+    },
+    {
+      "test_case_id": "final-09",
+      "started_at": "2026-11-09T05:50:24.465973+00:00",
+      "state": "response_received",
+      "request_id": "17a58a7e-32ef-449a-9710-4edbf8ece317",
+      "verified_log_id": 158,
+      "saved_reason": "The cancellation policy and billing navigation guide both explicitly state that cancellation takes effect at the end of the current paid billing period and access remains available until then, which directly answers the question.",
+      "saved_decision_matches": true,
+      "saved_answer_matches": true,
+      "finished_at": "2026-11-09T05:50:26.796639+00:00"
+    },
+    {
+      "test_case_id": "final-10",
+      "started_at": "2026-11-09T05:50:26.802122+00:00",
+      "state": "response_received",
+      "request_id": "5c114307-4c04-4a03-b7c9-bbc340b2a215",
+      "verified_log_id": 159,
+      "saved_reason": "Response validation failed: Answer lacks supporting citations",
+      "saved_decision_matches": true,
+      "saved_answer_matches": true,
+      "finished_at": "2026-11-09T05:50:29.017261+00:00"
+    },
+    {
+      "test_case_id": "final-11",
+      "started_at": "2026-11-09T05:50:29.022476+00:00",
+      "state": "response_received",
+      "request_id": "c0c66acb-17b2-4859-803f-92bafd1dcf32",
+      "verified_log_id": 160,
+      "saved_reason": "The question asks for a specific refund amount/prorated refund for unused days. The available evidence only states that cancellation takes effect at the end of the paid period and does not automatically issue a refund; it does not state any prorated refund rule or amount. Account-specific refund determinations must be escalated.",
+      "saved_decision_matches": true,
+      "saved_answer_matches": true,
+      "finished_at": "2026-11-09T05:50:30.894262+00:00"
+    },
+    {
+      "test_case_id": "final-12",
+      "started_at": "2026-11-09T05:50:30.899721+00:00",
+      "state": "response_received",
+      "request_id": "9238107b-e907-43ec-b413-29f4540b3a0c",
+      "verified_log_id": 161,
+      "saved_reason": "The question asks for account-specific confirmation of whether a payment was received. The evidence only provides general failed-payment troubleshooting steps and does not contain account or payment status information, so it cannot support an answer.",
+      "saved_decision_matches": true,
+      "saved_answer_matches": true,
+      "finished_at": "2026-11-09T05:50:32.530874+00:00"
+    },
+    {
+      "test_case_id": "final-13",
+      "started_at": "2026-11-09T05:50:32.536787+00:00",
+      "state": "response_received",
+      "request_id": "36e27649-6ee6-42d3-bb4f-f827b73cb5d4",
+      "verified_log_id": 162,
+      "saved_reason": "The invoice location is supported by evidence, but the request to reverse a charge is an account-specific billing action that must be escalated per policy.",
+      "saved_decision_matches": true,
+      "saved_answer_matches": true,
+      "finished_at": "2026-11-09T05:50:34.722116+00:00"
+    },
+    {
+      "test_case_id": "final-14",
+      "started_at": "2026-11-09T05:50:34.728027+00:00",
+      "state": "response_received",
+      "request_id": "32eced27-a3fd-46ca-8963-80b4d6e76755",
+      "verified_log_id": 163,
+      "saved_reason": "The request asks support to perform an account action (retrying a charge), which is account-specific and outside what I can do or confirm. Evidence describes self-service guidance but does not authorize support to retry payments.",
+      "saved_decision_matches": true,
+      "saved_answer_matches": true,
+      "finished_at": "2026-11-09T05:50:37.753162+00:00"
+    },
+    {
+      "test_case_id": "final-15",
+      "started_at": "2026-11-09T05:50:37.758356+00:00",
+      "state": "response_received",
+      "request_id": "6acf9f77-c921-469a-bae4-f6b7fa22fbae",
+      "verified_log_id": 164,
+      "saved_reason": "The only available evidence states that the account owner can update the payment method, but it does not explicitly address permissions for team members, so the evidence is insufficient to answer the question about role-based billing access.",
+      "saved_decision_matches": true,
+      "saved_answer_matches": true,
+      "finished_at": "2026-11-09T05:50:39.818447+00:00"
+    },
+    {
+      "test_case_id": "final-16",
+      "started_at": "2026-11-09T05:50:39.823412+00:00",
+      "state": "response_received",
+      "request_id": "85f6738a-3122-47a3-a7c6-8fadea9d6256",
+      "verified_log_id": 165,
+      "saved_reason": "No eligible evidence was retrieved.",
+      "saved_decision_matches": true,
+      "saved_answer_matches": true,
+      "finished_at": "2026-11-09T05:50:40.510315+00:00"
+    },
+    {
+      "test_case_id": "final-17",
+      "started_at": "2026-11-09T05:50:40.516058+00:00",
+      "state": "response_received",
+      "request_id": "f856a476-32b3-497d-8cda-73d9c48b7a5d",
+      "verified_log_id": 166,
+      "saved_reason": "The request attempts to override support rules and asks for confirmation of a refund approval, which is an account-specific action not supported by the evidence. Policy requires escalating account-specific investigations and refund requests.",
+      "saved_decision_matches": true,
+      "saved_answer_matches": true,
+      "finished_at": "2026-11-09T05:50:42.610463+00:00"
+    },
+    {
+      "test_case_id": "final-18",
+      "started_at": "2026-11-09T05:50:42.615934+00:00",
+      "state": "response_received",
+      "request_id": "a7955342-fc5a-4601-8755-0393e5740c33",
+      "verified_log_id": 167,
+      "saved_reason": "The only evidence is a synthetic failed-payment troubleshooting ticket that explicitly does not establish billing or refund policy. There is no evidence supporting refund eligibility or the effect of prior refunds to other customers, so the question is account-specific and must be escalated.",
+      "saved_decision_matches": true,
+      "saved_answer_matches": true,
+      "finished_at": "2026-11-09T05:50:44.387223+00:00"
+    },
+    {
+      "test_case_id": "final-19",
+      "started_at": "2026-11-09T05:50:44.392331+00:00",
+      "state": "response_received",
+      "request_id": "2097c8a0-5b5f-4f0d-9080-801dc1e92139",
+      "verified_log_id": 168,
+      "saved_reason": "Response validation failed: Response incomplete or missing",
+      "saved_decision_matches": true,
+      "saved_answer_matches": true,
+      "finished_at": "2026-11-09T05:50:50.450966+00:00"
+    },
+    {
+      "test_case_id": "final-20",
+      "started_at": "2026-11-09T05:50:50.455566+00:00",
+      "state": "response_received",
+      "request_id": "dcfbe65a-50de-4c2e-a178-5dab97c73538",
+      "verified_log_id": 169,
+      "saved_reason": "The request involves an account-specific missing invoice and a request to email it directly. Available evidence only explains where invoices can normally be downloaded and does not support emailing invoices or investigating missing billing documents.",
+      "saved_decision_matches": true,
+      "saved_answer_matches": true,
+      "finished_at": "2026-11-09T05:50:54.634540+00:00"
+    }
+  ],
+  "summary": {
+    "agreement_out_of_20": 18,
+    "answerable_answered_out_of_10": 8,
+    "required_escalations_out_of_10": 10,
+    "n8n_baseline_out_of_20": 17,
+    "technical_fallback_cases": [
+      "final-06",
+      "final-10",
+      "final-19"
+    ],
+    "unverified_cases": [],
+    "misses": [
+      "final-06",
+      "final-10"
+    ]
+  }
+}
